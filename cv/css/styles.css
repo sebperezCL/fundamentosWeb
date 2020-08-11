@@ -1,5 +1,5 @@
 * {
-    font-style: italic;
+    font-family: 'Fira Sans Condensed', 'Times New Roman', Times, serif;;
 }
 
 body {
@@ -9,6 +9,11 @@ body {
 
 h1 {
     color: yellow;
+}
+
+h1, h2 {
+    font-family: 'EB Garamond', Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
 
 a {
