@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <style>
+        h1, h2, p {
+            color: blue;
+        }
+        
+        div p {
+            color: red;
+        }
+
+        div > p {
+            color: orange;
+        }
+
+        blockquote + p {
+            color: green;
+        }
+
+        h1 ~ p {
+            border-left: solid 10px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título 1</h1>
+    <div>
+        <p>1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati autem hic delectus sit nobis fugit. Repudiandae, esse quasi! Nihil tempore vero asperiores a, in tempora veniam laudantium ducimus ullam vel!</p>
+        <blockquote>
+            <p>1.1. Aperiam consequuntur commodi vel explicabo doloribus nulla facere? Sit, explicabo? Quia rerum, placeat consequatur error ratione numquam nobis accusantium, tempore delectus possimus facere, reprehenderit necessitatibus illum autem doloribus qui cumque.</p>
+        </blockquote>        
+        <p>2. Cupiditate dolorem non suscipit esse unde modi architecto doloremque error ad, quasi eum sint numquam at voluptate sunt quos a explicabo aliquid quia quam mollitia molestiae? Fugiat aliquid ducimus enim!</p>
+        <p>3. Cupiditate dolorem non suscipit esse unde modi architecto doloremque error ad, quasi eum sint numquam at voluptate sunt quos a explicabo aliquid quia quam mollitia molestiae? Fugiat aliquid ducimus enim!</p>
+    </div>
+    <h1>Título 1-1</h1>
+    <p>4. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia labore repudiandae illum rerum nostrum accusamus quasi voluptatibus beatae consequatur dolorum, voluptates sint quae ducimus sit ab voluptas facere ipsa ipsam.</p>
+    <h2>Título 2</h2>
+    <p>5. Cum sit a ipsum nemo, perferendis atque iste aut alias, ipsam totam, laudantium dolore odit ducimus facere facilis quod. Laborum inventore odit saepe error porro esse fugit atque illum praesentium.</p>
+</body>
+</html>
