@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoelementos y pseudoclases</title>
+
+    <style>
+        .navbar {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navbar li {
+            display: inline;
+            padding-left: 1rem;
+            /* background-color: #e0e0e0; */
+        }
+
+        .navbar li::after {
+            content: "|";
+            margin-left: 1rem;
+        }
+
+        .navbar li:last-of-type::after {
+            content: none;
+        }
+       
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="">4</a></li>
+        </ul>
+    </nav>
+    <h1>Pseudo-elementos y Pseudo-clases</h1>
+</body>
+</html>

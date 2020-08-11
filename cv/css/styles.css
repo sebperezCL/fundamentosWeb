@@ -1,13 +1,32 @@
+* {
+    font-style: italic;
+}
+
 body {
     background-color: black; 
     color: white;
 }
+
 h1 {
     color: yellow;
 }
+
 a {
     color: red;
 }
+
 img, video {
     max-width: 100%;
+}
+
+.social-link {
+    color: aqua;
+}
+
+#contacto {
+    background-color: orange;
+}
+
+[target="_blank"] {
+    text-decoration: line-through;
 }
