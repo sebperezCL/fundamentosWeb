@@ -1,0 +1,13 @@
+body {
+    background-color: black; 
+    color: white;
+}
+h1 {
+    color: yellow;
+}
+a {
+    color: red;
+}
+img, video {
+    max-width: 100%;
+}
