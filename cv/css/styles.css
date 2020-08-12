@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-    --max-width: 900px;
+    --max-width: 50%;
+    --navbar-height: 40px;
 }
 
 * {
