@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+    --max-width: 900px;
+}
+
+* {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: juego-tronos;
+    src: url('../fonts/gt.ttf');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: juego-tronos, 'Times New Roman', Times, serif; 
+}
+
+.main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
