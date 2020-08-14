@@ -11,19 +11,22 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    /* text-align: center; /* como está inline se puede centrar el texto */
+    float: right;
+    margin-right: 1rem;
 }
 
 .navbar-item {
     display: inline-block;
     margin: 0;
-    /*height: var(--navbar-height); no es necesario ya que toma el alto de la línea de <a>*/
+    /* height: var(--navbar-height); no es necesario ya que toma el alto de la línea de <a>*/
 }
 
 .navbar-item > a {
     display: inline-block;
     color: white;
     text-decoration: none;
-    /*height: var(--navbar-height); no es necesario ya que toma el alto de la línea de <a>*/
+    /* height: var(--navbar-height); no es necesario ya que toma el alto de la línea de <a>*/
     line-height: var(--navbar-height);
     padding: 0 1rem;
 }
