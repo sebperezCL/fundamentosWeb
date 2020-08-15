@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color: goldenrod;
+            display: flex;
+            height: 100vh;
+            flex-flow: row nowrap;            
+        }
+        .items {
+            border: solid 5px pink;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-weight: bold;
+            font-size: 40px;  
+            flex-grow: 1;         
+        }
+        .item-5 {
+            flex-grow: 2;
+        }
+        .item-7 {
+            flex-grow: 7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item-1">1</div>
+        <div class="items item-2">2</div>
+        <div class="items item-3">3</div>
+        <div class="items item-4">4</div>
+        <div class="items item-5">5</div>
+        <div class="items item-6">6</div>
+        <div class="items item-7">7</div>
+        <div class="items item-8">8</div>
+        <div class="items item-9">9</div>
+    </div>
+</body>
+</html>
