@@ -8,27 +8,17 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <nav id="navbar" class="navbar">
-        <ul class="navbar-list">
-            <li 
-            class="navbar-item">
-                <a href="#navbar">Inicio</a>
-            </li><li 
-            class="navbar-item">
-                <a href="#que-hago">Que hago</a>
-            </li><li 
-            class="navbar-item">
-                <a href="#quien-soy">Quien soy</a>
-            </li><li 
-            class="navbar-item">
-                <a href="#batallas">Batallas</a>
-            </li><li 
-            class="navbar-item">
-                <a href="contacto">Contacto</a>
-            </li>
-        </ul>
+        <div class="navbar__list">
+            <div class="navbar__item"><a href="#navbar">Inicio</a></div>
+            <div class="navbar__item"><a href="#que-hago">Que hago</a></div>
+            <div class="navbar__item"><a href="#quien-soy">Quien soy</a></div>
+            <div class="navbar__item"><a href="#batallas">Batallas</a></div>
+            <div class="navbar__item"><a href="contacto">Contacto</a></div>
+        </div>
     </nav> 
     <header class="header">
         <img src="./img/header-bg.jpg" alt="portada Jon Snow">
@@ -38,10 +28,10 @@
         Bastardo de Ned Stark, líder de la Guardia de la noche proclamado
         Rey en el Norte, y ahora leal escudero de Daenerys Targaryen.
     </header>
-    <main class="main">
-        <section id="que-hago">            
-            <h1>A que me dedico</h1>
-            <article>
+    <main class="main">        
+        <section class="que-hago__container" id="que-hago"> 
+            <h1 class="que-hago__titulo">A que me dedico</h1>
+            <article class="que-hago__item">
                 <img src="./img/guardia-noche.jpg" alt="Guardia de la noche">
                 <h2>Guardia de la noche</h2>
                 <p>Lorem ipsum esto es strong dolor sit,
@@ -51,7 +41,7 @@
                     doloribus consequuntur rerum vel esse eligendi laboriosam beatae.
                 </p>
             </article>
-            <article>
+            <article class="que-hago__item">
                 <img src="./img/rey-norte.jpg" alt="Rey en el norte">
                 <h2>Rey en el norte</h2>
                 <p>
@@ -61,8 +51,8 @@
                     a vestibulum elit ornare. Phasellus quam erat, sodales vitae tortor
                     pulvinar, feugiat efficitur augue.
                 </p>
-            </article>
-            <article>
+            </article>                        
+            <article class="que-hago__item">
                 <img src="./img/cuidador-dragones.jpg" alt="Cuidador de dragones">
                 <h2>Cuidador de dragones</h2>
                 <p>
@@ -72,7 +62,7 @@
                     enim orci accumsan erat, sed vulputate felis nulla at augue.
                 </p>
             </article>
-            <article>
+            <article class="que-hago__item">
                 <img src="./img/consejero-real.jpg" alt="Consejero real">
                 <h2>Consejero real</h2>
                 <p>

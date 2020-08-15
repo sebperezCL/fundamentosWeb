@@ -7,30 +7,32 @@
     z-index: 100;
 }
 
-.navbar-list {
+.navbar__list {
     list-style: none;
     padding: 0;
     margin: 0;
     /* text-align: center; /* como está inline se puede centrar el texto */
-    float: right;
     margin-right: 1rem;
+    display: flex;
+    /* flex-flow: row nowrap;  */
+    justify-content: flex-end; 
 }
 
-.navbar-item {
-    display: inline-block;
+.navbar__item {
     margin: 0;
     /* height: var(--navbar-height); no es necesario ya que toma el alto de la línea de <a>*/
+   
 }
 
-.navbar-item > a {
-    display: inline-block;
+.navbar__item > a {
     color: white;
     text-decoration: none;
     /* height: var(--navbar-height); no es necesario ya que toma el alto de la línea de <a>*/
     line-height: var(--navbar-height);
     padding: 0 1rem;
+    display: inline-block;
 }
 
-.navbar-item a:hover {
+.navbar__item a:hover {
     background-color: #666666;
 }
