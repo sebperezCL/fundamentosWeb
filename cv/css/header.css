@@ -30,5 +30,13 @@
     background-color: rgba(255, 255, 255, 0.5); /* rgba para transparencia */
     margin: 0;
     padding: 1rem; /* agrega espacio para el texto */
-    text-align: right;    
+    text-align: center;    
+}
+
+@media all and (min-width: 768px) {
+    .header > h1, .header > .tagline {
+        background-color: transparent;
+        text-align: left;
+        margin-left: 50%;
+    }
 }
