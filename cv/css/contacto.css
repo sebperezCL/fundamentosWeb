@@ -5,6 +5,7 @@
 
 form label {
     display: block;
+    margin-bottom: .5rem;
 }
 
 form input[type='text'],
@@ -28,11 +29,18 @@ input[type='submit'] {
     #contact-form {
         flex-direction: row;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .contact-data, .message-data {
         flex-shrink: 1;
         flex-grow: 0;
         width: 48%;
+    }
+
+    .actions {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 }
