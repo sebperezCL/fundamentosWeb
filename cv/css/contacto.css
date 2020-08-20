@@ -1,0 +1,38 @@
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    display: block;
+}
+
+form input[type='text'],
+form input[type='email'], 
+form textarea {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: .5rem;
+}
+
+input[type='submit'] {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    min-width: 10rem;
+    border-radius: 20px;
+    border: 0;
+    background-color: deepskyblue;
+}
+
+@media (min-width: 768px) {
+    #contact-form {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contact-data, .message-data {
+        flex-shrink: 1;
+        flex-grow: 0;
+        width: 48%;
+    }
+}
