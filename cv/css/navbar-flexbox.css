@@ -49,12 +49,16 @@
 /* menú cerrado */
 .navbar__list {
     display: none;
-    display: flex;
     margin: 0;
 }
 
+#burger-checkbox {
+  display: none;
+}
+
 /* menú abierto */ 
-.navbar__list-open {
+#burger-checkbox:checked ~ .navbar__list {
+    display: flex;
     list-style: none;
     flex-direction: column;
     justify-content: space-evenly;
