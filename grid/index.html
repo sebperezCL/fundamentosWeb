@@ -49,24 +49,35 @@
             grid-auto-rows: .5fr 3fr .5fr;
             gap: 10px;
             height: 100vh;
+            
+            grid-template-areas: "header header header"
+                                "navbar main aside1"
+                                "navbar main aside2"
+                                "footer footer footer";
         }
 
-        .item-1 {
-            grid-column-start: 1;
-            grid-column-end: -1;
+        .item-1 {     
+            grid-area: header;      
         }
 
-        .item-6 {
-            grid-column: 1 / -1;
+        .item-2 {
+            grid-area: navbar;
         }
 
-        .item-2, .item-3 {
-            grid-row: span 2;
+        .item-3 {
+            grid-area: main;
         }
 
         .item-5 {
-            grid-column: 3;
-            grid-row: 2;
+            grid-area: aside1;
+        }
+
+        .item-4 {
+            grid-area: aside2;
+        }
+
+        .item-6 {
+            grid-area: footer;
         }
     </style>
 </head>
