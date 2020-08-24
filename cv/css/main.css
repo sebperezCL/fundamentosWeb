@@ -3,18 +3,3 @@
     margin: 0 auto;
     padding: 0;
 }
-
-.que-hago__container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-
-.que-hago__titulo {    
-    width: 100%;
-    text-align: center;
-}
-
-.que-hago__item {
-    width: 250px;
-}
