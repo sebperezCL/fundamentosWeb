@@ -43,3 +43,18 @@
 .skill-95 {
     width: 95%;
 }
+
+@media all and (min-width: 768px) {
+    .two-columns {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .biography {
+        flex: 0 1 60%;
+    }
+
+    .skills {
+        flex: 0 1 30%;
+    }
+}
