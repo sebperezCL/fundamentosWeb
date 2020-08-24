@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-    --max-width: 60%;
+    --max-width: 900px;
     --navbar-height: 50px;
     --dark-color: #222222;
 }
@@ -22,4 +22,13 @@ h1 {
 
 h2, h3, h4, h5, h6 {
     font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.section {
+    padding: 3rem 1rem;
 }
