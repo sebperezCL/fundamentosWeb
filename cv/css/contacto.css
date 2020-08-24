@@ -1,6 +1,10 @@
 #contact-form {
     display: flex;
     flex-direction: column;
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0.5rem;
 }
 
 form label {
@@ -14,6 +18,10 @@ form textarea {
     width: 100%;
     font-size: 1.1rem;
     padding: .5rem;
+}
+
+form textarea {
+    height: 13.1rem;
 }
 
 input[type='submit'] {
