@@ -32,3 +32,9 @@ h2, h3, h4, h5, h6 {
 .section {
     padding: 3rem 1rem;
 }
+
+.section.inverted { /*sin espacio entre las clases para hacer un AND */
+    background-color: lightcyan;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+}

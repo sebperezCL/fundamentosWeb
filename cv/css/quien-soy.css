@@ -48,6 +48,10 @@
     .two-columns {
         flex-direction: row;
         justify-content: space-between;
+        max-width: var(--max-width);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 1.5rem;
     }
 
     .biography {
