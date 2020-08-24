@@ -1,0 +1,45 @@
+.two-columns {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills picture {
+    margin: 0;
+    padding: 0;
+}
+
+.skill-name {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.skillbar-outer {
+    border: solid 1px lightblue;
+    height: 20px;
+    padding: 2px;
+    border-radius: 10px;
+    margin: .25rem 0 1rem 0;
+}
+
+.skillbar-inner {
+    height: 14px;
+    background-color: lightgreen;
+    border-radius: 7px;
+    width: 0;
+}
+
+.skill-75 {
+    width: 75%;
+}
+
+.skill-85 {
+    width: 85%;
+}
+
+.skill-95 {
+    width: 95%;
+}
